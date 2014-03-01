@@ -1,0 +1,62 @@
+body {
+    background-color: #BDC3C7;
+}
+
+.links {
+    margin: 10% auto 0 auto;
+    width: 534px;
+    height: 200px;
+}
+p {
+    margin: auto;
+    width: 78%;
+    font: 50px "Dosis", sans-serif; text-transform: uppercase;
+    color: #FFFFFF;
+}
+nav ul {
+    list-style: none;
+    position: relative;
+
+}
+nav ul li {
+    float: left; margin: 0 20px 0 0;
+}
+nav ul li a {
+    display: block; width: 128px; height: 128px;
+    /*background-image: url(linkedin.png); background-repeat: no-repeat;*/
+}
+nav ul li:nth-child(1) a {
+    /*background-color: #5bb2fc;*/
+    /*background-position: 28px 28px;*/
+    background-image: url(linkedin.png); background-repeat: no-repeat;
+}
+nav ul li:nth-child(2) a {
+    /*background-color: #58ebd3;*/
+    /*background-position: 28px -96px;*/
+    background-image: url(github.png); background-repeat: no-repeat;
+}
+nav ul li:nth-child(3) a {
+    /*background-color: #ffa659;*/
+    /*background-position: 28px -222px;*/
+    background-image: url(twitter.png); background-repeat: no-repeat;
+}
+
+nav ul li a span {
+    font: 50px "Dosis", sans-serif; text-transform: uppercase;
+    position: absolute; left: 175px; top: 150px; margin: auto;
+    display: none;
+}
+nav ul li a:hover span {
+    display: block;
+}
+
+nav ul li:nth-child(1) a span {
+    color: #FFFFFF;
+}
+nav ul li:nth-child(2) a span {
+    color: #FFFFFF;
+}
+nav ul li:nth-child(3) a span {
+    color: #FFFFFF;
+}
+
