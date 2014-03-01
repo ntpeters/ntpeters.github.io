@@ -7,9 +7,23 @@ body {
     width: 534px;
     height: 200px;
 }
+
+.linkedin {
+    position: absolute; left: 172px; top: 140px; margin: auto;
+}
+
+.github {
+    position: absolute; left: 187px; top: 140px; margin: auto;
+}
+
+.twitter {
+    position: absolute; left: 172px; top: 140px; margin: auto;
+}
+
 p {
     margin: auto;
-    width: 78%;
+    width: 79%;
+    height: 65px;
     font: 50px "Dosis", sans-serif; text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -35,8 +49,8 @@ nav ul li:nth-child(3) a {
 }
 
 nav ul li a span {
-    font: 50px "Dosis", sans-serif; text-transform: uppercase;
-    position: absolute; left: 175px; top: 150px; margin: auto;
+    font: 45px "Dosis", sans-serif; text-transform: uppercase;
+    /*position: absolute; left: 175px; top: 150px; margin: auto;*/
     display: none;
 }
 nav ul li a:hover span {
