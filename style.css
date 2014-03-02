@@ -5,28 +5,43 @@ body {
 .links {
     margin: 10% auto 0 auto;
     width: 534px;
-    height: 200px;
+    /*width: 790px;*/
+    height: 500px;
 }
 
 .linkedin {
-    position: absolute; left: 172px; top: 140px; margin: auto;
+    position: absolute; left: 0px; top: -7px; margin: auto;
 }
 
 .github {
-    position: absolute; left: 187px; top: 140px; margin: auto;
+    position: absolute; left: 18px; top: -7px; margin: auto;
 }
 
 .twitter {
-    position: absolute; left: 172px; top: 140px; margin: auto;
+    position: absolute; left: 11px; top: -7px; margin: auto;
+}
+
+.resume {
+    position: absolute; left: -107px; top: -225px; margin: auto;
+}
+
+.contact {
+    position: absolute; left: -252px; top: -225px; margin: auto;
 }
 
 p {
     margin: auto;
-    width: 79%;
-    height: 65px;
-    font: 50px "Dosis", sans-serif; text-transform: uppercase;
+    width: 83%;
+    height: 85px;
+    font: 65px "Dosis", sans-serif; /*text-transform: uppercase;*/
     color: #FFFFFF;
 }
+
+.row2 {
+    position: relative; left: 72px;
+    margin: 90px 20px 0 0;
+}
+
 nav ul {
     list-style: none;
     position: relative;
@@ -47,10 +62,17 @@ nav ul li:nth-child(2) a {
 nav ul li:nth-child(3) a {
     background-image: url(twitter.png); background-repeat: no-repeat;
 }
+nav ul li:nth-child(4) a {
+    background-image: url(resume.png); background-repeat: no-repeat;
+}
+nav ul li:nth-child(5) a {
+    background-image: url(contact.png); background-repeat: no-repeat;
+}
 
 nav ul li a span {
-    font: 45px "Dosis", sans-serif; text-transform: uppercase;
-    /*position: absolute; left: 175px; top: 150px; margin: auto;*/
+    font: 45px "Dosis", sans-serif; /*text-transform: uppercase;*/
+    position: absolute; left: 175px; top: 150px; margin: auto;
+    /*position: relative; top:140px;*/
     display: none;
 }
 nav ul li a:hover span {
@@ -64,6 +86,12 @@ nav ul li:nth-child(2) a span {
     color: #FFFFFF;
 }
 nav ul li:nth-child(3) a span {
+    color: #FFFFFF;
+}
+nav ul li:nth-child(4) a span {
+    color: #FFFFFF;
+}
+nav ul li:nth-child(5) a span {
     color: #FFFFFF;
 }
 
